@@ -4,7 +4,7 @@ Reads out the position
 ```
 cd catkin_ws/src
 git clone https://github.com/petterhangerhagen/pos_pkg.git
-chmod +x ~/catkin_ws/src/pos_pkg/script/pos_client.py
+chmod +x ~/catkin_ws/src/pos_pkg/scripts/pos_client.py
 ```
 
 Launching
