@@ -1,0 +1,11 @@
+Dette er formatet:
+
+<launch>
+    </node>
+    <node ns="/" name="pos_controller" pkg="pos_pkg" type="pos_client.py" output="screen">
+    </node>
+</launch>
+
+Hvor name = "pos_controller" bare er et navn vi gir noden, har ikke noe å si hva den er.
+pkg="pos_pkg" er mappen/directory-en som... 
+type="pos_client.py" er scriptet som kjøres og ligger i pos_pkg mappen.
